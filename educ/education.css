@@ -7,24 +7,25 @@
 
 /*main tag styling */
 main{
-  height: auto;
+  height: 150vh;
   
 }
 
-nav {
-  margin: 1rem 0;
-}
 
-nav a {
-  color: #5aa7c8;          /* light blue */
-  text-decoration: underline;
-  margin-right: 14px;
-  font-family: "Space Mono", monospace;
-}
-
-nav a:hover {
-  text-decoration: none;
-}
+  nav {
+    margin: 1rem 10;
+  }
+  
+  nav a {
+    color: #5aa7c8;          /* light blue */
+    text-decoration: underline;
+    margin-right: 14px;
+    font-family: "Space Mono", monospace;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+  }
 
 p {
     font-family: 'Space Mono', monospace;

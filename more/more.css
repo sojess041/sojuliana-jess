@@ -23,21 +23,21 @@ p {
 
 }
 
-
-/* Navigation styling */
-nav a {
-  text-decoration: none;
-  font-family: 'Space Mono', monospace;
-  font-size: 14px;
-  font-weight: bold;
-  color: #95d2e6;
-  display: inline-block;
-  margin: 0 10px;
-  border-bottom: 2px solid #cce5eb;
-  margin-top: 30px;
-  text-align: center;
-}
-
+nav {
+    margin: 1rem 0;
+  }
+  
+  nav a {
+    color: #5aa7c8;          /* light blue */
+    text-decoration: underline;
+    margin-right: 14px;
+    font-family: "Space Mono", monospace;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+  }
+  
 /*photo styling*/
 
 .boat{
