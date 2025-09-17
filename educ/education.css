@@ -1,0 +1,96 @@
+/*page wrapper */
+.wrapper{
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2% 5%;
+}
+
+/*main tag styling */
+main{
+  height: auto;
+  
+}
+
+nav {
+  margin: 1rem 0;
+}
+
+nav a {
+  color: #5aa7c8;          /* light blue */
+  text-decoration: underline;
+  margin-right: 14px;
+  font-family: "Space Mono", monospace;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+}
+
+
+
+h1 {
+    font-family: 'Space Mono', monospace, bold;
+    font-weight: 700;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* position text in the middle of the post it note re W3 Schools*/
+.text {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(29, 26, 26); 
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;
+    width: 90%;
+  }
+
+/* Stylling for post it images*/
+.postit {
+    width: 150%;
+    height: auto;
+  }
+
+.postit-container {
+    position: relative;
+    display: inline-block;
+    margin: 130px;
+    width: 200px;
+    height: 200px;
+  }
+
+
+  /*styling for h1*/
+.educ{
+    font-family: 'Space Mono', monospace, bold;
+    margin:auto;
+    text-align: center;
+
+}
+
+
+/*footer styling to bring it to the bottom of the page*/
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top:20%;
+    text-align: center;
+  }
+  
+
+
+
+

@@ -1,0 +1,99 @@
+
+/*page wrapper */
+.wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2% 5%;
+}
+
+/*main tag styling */
+main{
+    height: auto;
+    
+}
+
+/*title stling */
+p {
+    font-family: 'Space Mono', monospace;
+  }
+  h1 {
+    font-family: 'Space Mono', monospace, bold;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+/* Navigation styling */
+nav a {
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  font-weight: bold;
+  color: #95d2e6;
+  display: inline-block;
+  margin: 0 10px;
+  border-bottom: 2px solid #cce5eb;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/*photo styling*/
+
+.boat{
+    width: 20%;
+    height: 10%;
+    margin-left: 30px;
+}
+
+.bangka {
+    width: 20%;
+    height: 10%;
+}
+
+.bingsu {
+    width: 20%;
+    height: 10%;
+}
+.bike{
+    width: 20%;
+    height: 10%;
+}
+.brownstone{
+    width: 20%;
+    height: 10%;
+}
+.blossom {
+    width: 22%;
+    height: 20%;
+}
+.duck{
+    width: 20%;
+    height: 10%;
+}
+
+.train{
+    width: 22%;
+    height: 10%;
+}
+
+.photolib{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;  
+    padding: 40px;
+    justify-content: center;
+    
+
+}
+
+
+/*footer styling to bring it to the bottom of the page*/
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top:9%;
+    text-align: center;
+  }
+  

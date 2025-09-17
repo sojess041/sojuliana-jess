@@ -1,0 +1,75 @@
+/*page wrapper */
+.wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2% 5%;
+}
+
+/*main tag styling */
+main{
+    height: 100vh;
+    
+}
+p {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace, bold;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+nav {
+    margin: 1rem 0;
+  }
+  
+  nav a {
+    color: #5aa7c8;          /* light blue */
+    text-decoration: underline;
+    margin-right: 14px;
+    font-family: "Space Mono", monospace;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+  }
+  
+
+/*footer styling to bring it to the bottom of the page*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.jess-gallery {
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start;
+    gap: 3%;                   
+    margin-top: 2%;
+    flex-wrap: wrap;          
+  }
+  
+  .jess-photo {
+    width: 25%;                
+    border-radius: 10px;
+    box-shadow: 15px 15px #95d2e6;
+    object-fit: cover;
+  }
+
+  

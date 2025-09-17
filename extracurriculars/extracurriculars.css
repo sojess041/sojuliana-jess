@@ -1,0 +1,78 @@
+:root{
+  --ink:#111;
+  --mint:#6dbee1;
+  --shadow:#94e8ff;
+  --link:#5aa7c8;
+}
+body{ font-family:"Space Mono", monospace; color:var(--ink); }
+
+main{ max-width:1100px; margin:0 auto; padding:2rem 1rem; }
+h1{ text-align:center; margin-top:1rem; }
+
+.jobs{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap:2rem;
+  margin-top:2.5rem;
+}
+
+av {
+  margin: 1rem 0;
+}
+
+nav a {
+  color: #5aa7c8;          /* light blue */
+  text-decoration: underline;
+  margin-right: 14px;
+  font-family: "Space Mono", monospace;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+
+.bubble{
+  position:relative;
+  background:var(--mint);
+  border:2px solid var(--ink);
+  border-radius:24px;
+  padding:1.25rem 1.25rem 1.4rem;
+  box-shadow:0 3px 0 var(--ink);
+  transform:translateY(0);
+  transition:transform .18s ease, box-shadow .18s ease;
+  isolation:isolate;
+}
+.bubble::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:22px;
+  background:var(--shadow);
+  z-index:-1;
+  transform:translate(10px,10px);
+}
+.bubble:hover{ transform:translateY(-6px); box-shadow:0 8px 0 var(--ink); }
+.bubble:hover::after{ transform:translate(14px,14px); }
+
+/* replace your .bubble-top + date/title rules with these */
+.bubble-top{
+  display:flex;
+  align-items: baseline;
+  margin-bottom: .25rem;
+  width:100%;
+}
+.bubble-top h3{ margin:0 2rem 0 0; }  /* manual gap */
+.date {
+  font-size: .9rem;
+  opacity: .8;
+  white-space: normal;   /* allow wrapping instead of staying on one line */
+  word-break: break-word; /* break long strings if needed */
+  text-align: right;      /* keep it aligned right inside bubble */
+}
+
+
+
+.title{ margin:.1rem 0 .5rem; font-weight:700; }
+.bubble ul{ margin:.4rem 0 0 1rem; padding:0; }
+.bubble li{ line-height:1.5; margin:.2rem 0; }

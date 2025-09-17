@@ -1,0 +1,121 @@
+/*page wrapper */
+.wrapper{
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2% 5%;
+}
+
+/*main tag styling */
+main{
+  height: auto;
+  
+}
+  
+  
+/*text styling */
+p {
+    font-family: 'Space Mono', monospace;
+  }
+h1 {
+    font-family: 'Space Mono', monospace, bold;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+nav {
+  margin: 1rem 0;
+}
+
+nav a {
+  color: #5aa7c8;          /* light blue */
+  text-decoration: underline;
+  margin-right: 14px;
+  font-family: "Space Mono", monospace;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+
+
+
+h2 {
+    color: black;
+    letter-spacing: 1px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+h3 {
+    color: black;
+    font-family:monospace;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+}
+
+img {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*footer styling to bring it to the bottom of the page*/
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/*styling for side photos*/
+.decor {
+  position: fixed;
+  width: 100px;
+  height: auto;
+  z-index: -1;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.beach {
+  left: 20vw;
+  top: 20vh;
+
+}
+
+.woods {
+  left: 20vw;
+  top: 40vh;
+}
+
+.icecream {
+  right: 20vw;
+  top: 20vh;
+}
+.buko {
+  right: 20vw;      
+  top: 40vh;
+}
+:root{
+
+  --link:#5aa7c8;
+}
+
+.mainimage {
+  height: 410px;
+  width:320px;
+  margin-left: 40;
+  display: block;
+}
